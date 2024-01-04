@@ -6,12 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <title>Document</title>
 </head>
@@ -30,29 +30,18 @@
     <div class="main">
       <div class="shop">
         <h1>My shop</h1>
-        <div class="products">
-          <!-- <div class="product">
-            <div class="product__photo"><img  src="img/${item.img}" alt=""></div>
-            <p class="product__name">${item.text}</p>
-            <div class="product__item">
-                <p class="star">☆</p>
-                <p class="promotion">Акція</p>
-                <div class="plan">
-                    <img src="img/unnamed.jpg" alt="">
-                    <p class="month">${item.text2}</p>
-                    <img src="img/png-transparent-dog-paw-paws-animals-snout-silhouette-thumbnail.png" alt="">
-                </div>
-            </div>
-            <div class="product__price-block">
-                <p class="product__price">${item.price}</p>
-                <button class="product__add-cart" onclick="displayItemsCount()"><i  class="fa-solid fa-cart-plus"></i></button>
-            </div> -->
-        </div>    
-        </div>
+        <div class="products"></div>
       </div>
     </div>
-  
+
+    <div class="cart-container" style="display: none;">
+      <button class="close-cart-btn"><i class="fa-solid fa-xmark"></i></button>
+      <h2>Shopping Cart</h2>
+      <div class="cart-products"></div>
+    </div>
   </div>
+
+  
 
   <script src="./js/commonElements.js"></script>
   <script src="./js/data.js"></script>
